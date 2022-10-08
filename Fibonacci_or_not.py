@@ -1,0 +1,12 @@
+n=int(input())
+x=0
+y=1
+while(x<n):
+    t=x
+    x=x+y
+    if(x==n):
+        print("True")
+    y=t
+    if(x>n):
+        print("False")
+        break
